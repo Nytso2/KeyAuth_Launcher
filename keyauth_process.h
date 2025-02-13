@@ -16,11 +16,11 @@ using namespace KeyAuth;
 
 // copy and paste from https://keyauth.cc/app/ and replace these string variables
 // Please watch tutorial HERE https://www.youtube.com/watch?v=5x4YkTmFH-U
-std::string name = skCrypt("Quasar").decrypt(); // App name
-std::string ownerid = skCrypt("qcdfyQtNga").decrypt(); // Account ID
-std::string secret = skCrypt("ca07afecd8833850ab76f701673cafd6f4071f70ba410f057b640f01364796c6").decrypt(); // Application secret (not used in latest C++ example)
-std::string version = skCrypt("1.0").decrypt(); // Application version. Used for automatic downloads see video here https://www.youtube.com/watch?v=kW195PLCBKs
-std::string url = skCrypt("https://keyauth.win/api/1.3/").decrypt(); // change if using KeyAuth custom domains feature
+std::string name = skCrypt("").decrypt(); // App name
+std::string ownerid = skCrypt("").decrypt(); // Account ID
+std::string secret = skCrypt("").decrypt(); // Application secret (not used in latest C++ example)
+std::string version = skCrypt("").decrypt(); // Application version. Used for automatic downloads see video here https://www.youtube.com/watch?v=kW195PLCBKs
+std::string url = skCrypt("").decrypt(); // change if using KeyAuth custom domains feature
 std::string path = skCrypt("").decrypt(); // (OPTIONAL) see tutorial here https://www.youtube.com/watch?v=I9rxt821gMk&t=1s
 
 
