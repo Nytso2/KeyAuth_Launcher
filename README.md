@@ -1,8 +1,6 @@
 # KeyAuth_Launcher
 
-# KeyAuth C++ Integration Example
-
-This is an example C++ project demonstrating how to integrate **KeyAuth** for user authentication. The program allows users to log in, register, upgrade, or activate using a license key. It utilizes KeyAuth's API for authentication and protects against unauthorized access using 2FA (Two-Factor Authentication).
+This is an C++ project demonstrating how to integrate **KeyAuth** for user authentication. The program allows users to log in, register, upgrade, or activate using a license key. It utilizes KeyAuth's API for authentication and protects against unauthorized access using 2FA (Two-Factor Authentication).
 
 ## Features
 - Login, registration, and license key activation.
