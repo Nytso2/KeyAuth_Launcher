@@ -2,6 +2,6 @@
 
 int main() {
     Keyauth();
-    printf("\nHello World\n");
+    \\here goes your main code;
     return 0;
 }
